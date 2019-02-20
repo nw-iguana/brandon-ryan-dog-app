@@ -1,0 +1,45 @@
+
+body {
+    background-color: #9575CD;
+}
+
+.hidden {
+    display: none;
+}
+
+.form-dog {
+    display: block;
+    margin: 0 auto;
+    width: 550px;
+} 
+
+legend {
+    font-family: 'Comic Sans MS', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 80px;
+}
+
+.form-dog input {
+    display: block;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #212121;
+    color: #fff;
+}
+
+.textInput {
+    margin: 25px 0 25px 0;
+}
+
+#output {
+    padding-top: 50px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
