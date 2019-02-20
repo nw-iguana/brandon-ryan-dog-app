@@ -23,7 +23,7 @@ function getDogImages(breedOfDog) {
     .then(responseJson => {
         console.log(responseJson.message);
         renderDogs(responseJson.message);
-    })
+    }).catch(error => console.error('Error:', error));
 
 };
 
