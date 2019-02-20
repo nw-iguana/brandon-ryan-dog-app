@@ -3,11 +3,14 @@ body {
     background-color: #9575CD;
 }
 
+.hidden {
+    display: none;
+}
+
 .form-dog {
     display: block;
     margin: 0 auto;
-    width: 50%;
-    min-width: 400px;
+    width: 400px;
 } 
 
 legend {
@@ -28,3 +31,15 @@ legend {
 .textInput {
     margin: 25px 0 25px 0;
 }
+
+#output {
+    padding-top: 50px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
